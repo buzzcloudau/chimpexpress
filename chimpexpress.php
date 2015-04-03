@@ -829,7 +829,7 @@ class chimpexpress
 			    </label>
 			</th>
 			<td>
-			    <input type="text" name="<?php echo $this->_optionsName; ?>[apikey]" style="text-align:center;width:270px;" maxlength="36" value="<?php echo esc_attr($this->_settings['apikey']); ?>" id="<?php echo $this->_optionsName; ?>_apikey" class="regular-text code" />
+			    <input type="text" name="<?php echo $this->_optionsName; ?>[apikey]" style="text-align:center;width:270px;" maxlength="40" value="<?php echo esc_attr($this->_settings['apikey']); ?>" id="<?php echo $this->_optionsName; ?>_apikey" class="regular-text code" />
 			    <?php /* if ( empty($this->_settings['apikey']) ) {
 			    ?>
 			    <input type="submit" name="get-apikey" value="<?php _e('Get API Key', 'chimpexpress'); ?>" />
@@ -1031,7 +1031,7 @@ class chimpexpress
 			    <label><?php _e('FTP Host', 'chimpexpress'); ?></label>
 			</th>
 			<td>
-			    <input type="text" name="<?php echo $this->_optionsName; ?>[ftpHost]" style="text-align:center;width:270px;" maxlength="36" value="<?php echo esc_attr($this->_settings['ftpHost']); ?>" id="<?php echo $this->_optionsName; ?>_ftpHost" class="regular-text code" />
+			    <input type="text" name="<?php echo $this->_optionsName; ?>[ftpHost]" style="text-align:center;width:270px;" maxlength="40" value="<?php echo esc_attr($this->_settings['ftpHost']); ?>" id="<?php echo $this->_optionsName; ?>_ftpHost" class="regular-text code" />
 			    <a class="chimpexpress_help" title="<?php _e('Click for Help!', 'chimpexpress'); ?>" href="#" onclick="jQuery('#ftpHost').toggle(); return false;">
 				<?php _e('[?]', 'chimpexpress'); ?></a>
 			    <div style="display:inline-block;">
@@ -1044,7 +1044,7 @@ class chimpexpress
 			    <label><?php _e('FTP Username', 'chimpexpress'); ?></label>
 			</th>
 			<td>
-			    <input type="text" name="<?php echo $this->_optionsName; ?>[ftpUser]" style="text-align:center;width:270px;" maxlength="36" value="<?php echo esc_attr($this->_settings['ftpUser']); ?>" id="<?php echo $this->_optionsName; ?>_ftpUser" class="regular-text code" />
+			    <input type="text" name="<?php echo $this->_optionsName; ?>[ftpUser]" style="text-align:center;width:270px;" maxlength="40" value="<?php echo esc_attr($this->_settings['ftpUser']); ?>" id="<?php echo $this->_optionsName; ?>_ftpUser" class="regular-text code" />
 			    <a class="chimpexpress_help" title="<?php _e('Click for Help!', 'chimpexpress'); ?>" href="#" onclick="jQuery('#ftpUser').toggle(); return false;">
 				<?php _e('[?]', 'chimpexpress'); ?></a>
 			    <div style="display:inline-block;">
@@ -1057,7 +1057,7 @@ class chimpexpress
 			    <label><?php _e('FTP Password', 'chimpexpress'); ?></label>
 			</th>
 			<td>
-			    <input type="password" name="<?php echo $this->_optionsName; ?>[ftpPasswd]" style="text-align:center;width:270px;" maxlength="36" value="<?php echo esc_attr($this->_settings['ftpPasswd']); ?>" id="<?php echo $this->_optionsName; ?>_ftpPasswd" class="password code" />
+			    <input type="password" name="<?php echo $this->_optionsName; ?>[ftpPasswd]" style="text-align:center;width:270px;" maxlength="40" value="<?php echo esc_attr($this->_settings['ftpPasswd']); ?>" id="<?php echo $this->_optionsName; ?>_ftpPasswd" class="password code" />
 			    <a class="chimpexpress_help" title="<?php _e('Click for Help!', 'chimpexpress'); ?>" href="#" onclick="jQuery('#ftpPasswd').toggle(); return false;">
 				<?php _e('[?]', 'chimpexpress'); ?></a>
 			    <div style="display:inline-block;">
@@ -1130,7 +1130,7 @@ class chimpexpress
 			    <label><?php _e('Google Analytics Profile ID', 'chimpexpress') ?></label>
 			</th>
 			<td>
-			    <input type="text" name="<?php echo $this->_optionsName; ?>[GAprofile]" style="text-align:center;width:270px;" maxlength="36" value="<?php echo esc_attr($this->_settings['GAprofile']); ?>" id="<?php echo $this->_optionsName; ?>_GAprofile" class="regular-text code" />
+			    <input type="text" name="<?php echo $this->_optionsName; ?>[GAprofile]" style="text-align:center;width:270px;" maxlength="40" value="<?php echo esc_attr($this->_settings['GAprofile']); ?>" id="<?php echo $this->_optionsName; ?>_GAprofile" class="regular-text code" />
 			    <a class="chimpexpress_help" title="<?php _e('Click for Help!', 'chimpexpress'); ?>" href="#" onclick="jQuery('#ga_info').toggle(); return false;">
 				<?php _e('[?]', 'chimpexpress'); ?></a>
 			    <div style="display:inline-block;">
